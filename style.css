@@ -9,13 +9,15 @@ body{
     align-items: center;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
+    justify-content: space-between;
+    height: 88vw;
 }
 .calculatorbody {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    position: static;
     border-radius: 20px;
     background-color: #0A2C4D;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .numbermatrix {
@@ -102,6 +104,12 @@ footer {
 }
 
 footer {
-    position: absolute;
+    position: static;
     bottom: 0;
+    margin-top: 20px;
+}
+
+header {
+    margin-bottom: 20px;
+
 }
